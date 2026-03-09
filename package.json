@@ -1,0 +1,28 @@
+{
+  "name": "vpn-manager",
+  "version": "1.0.0",
+  "description": "VPN connection manager CLI for Reddit scraping",
+  "main": "dist/index.js",
+  "bin": {
+    "vpn-manager": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "vpn",
+    "nordvpn",
+    "cli",
+    "reddit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0"
+  }
+}
