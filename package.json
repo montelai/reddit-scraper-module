@@ -1,20 +1,27 @@
 {
-  "name": "reddit-json-output",
+  "name": "reddit-scraper-module",
   "version": "1.0.0",
-  "description": "JSON output formatter for Reddit scraper results",
+  "description": "Reddit scraper with JSON output",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare": "yarn build"
   },
   "keywords": [
     "reddit",
+    "scraper",
+    "api",
     "json",
-    "output",
-    "formatter"
+    "output"
   ],
+  "author": "",
   "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
   "devDependencies": {
     "@types/node": "^20.10.0",
     "typescript": "^5.3.0"
