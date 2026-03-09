@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+// Reddit Scraper Exports
+=======
+>>>>>>> origin/reddit-scraper-module
 export * from './scraper/types';
 export { RedditClient, createRedditClient } from './scraper/reddit-client';
 export { PostScraper, createPostScraper } from './scraper/post-scraper';
