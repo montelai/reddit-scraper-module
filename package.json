@@ -1,17 +1,20 @@
 {
   "name": "reddit-scraper-module",
   "version": "1.0.0",
-  "description": "Reddit scraper module for extracting posts and comments",
+  "description": "Reddit scraper with pain point extraction",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "typecheck": "tsc --noEmit",
     "prepare": "yarn build"
   },
   "keywords": [
     "reddit",
     "scraper",
-    "api"
+    "api",
+    "pain-points",
+    "extraction"
   ],
   "author": "",
   "license": "MIT",
@@ -20,7 +23,7 @@
     "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0"
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
   }
 }
