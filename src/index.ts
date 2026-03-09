@@ -1,9 +1,19 @@
+<<<<<<< HEAD
+// Reddit Scraper Exports
+=======
+>>>>>>> origin/reddit-scraper-module
 export * from './scraper/types';
 export { RedditClient, createRedditClient } from './scraper/reddit-client';
 export { PostScraper, createPostScraper } from './scraper/post-scraper';
 export { CommentScraper, createCommentScraper } from './scraper/comment-scraper';
 export { SearchScraper, createSearchScraper } from './scraper/search-scraper';
 
+<<<<<<< HEAD
+// JSON Output Exports
+export * from './output';
+
+=======
+>>>>>>> origin/reddit-scraper-module
 import { createRedditClient } from './scraper/reddit-client';
 import { createPostScraper } from './scraper/post-scraper';
 import { createCommentScraper } from './scraper/comment-scraper';
